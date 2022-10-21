@@ -20,7 +20,7 @@ export default function Nav() {
 
   return (
     <nav className={styles.nav}>
-      <h1>Emerald DApp</h1>
+      <h1>Emerald DAppp</h1>
       <button onClick={handleAuthentication}>
         {user.loggedIn ? user.addr : 'Log In'}
       </button>
