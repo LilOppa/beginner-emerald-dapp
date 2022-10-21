@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Nav from '../components/nav'
+import Nav from '../components/nav.jsx'
 import { useState, useEffect } from 'react'
 import * as fcl from '@onflow/fcl'
 
