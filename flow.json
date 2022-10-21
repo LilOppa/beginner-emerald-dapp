@@ -1,0 +1,35 @@
+{
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": "62100c2e70f8183b15edb64280ada965a3f9403c279bb5d04d1534349c8d7d83"
+    },
+
+    "testnet-account": {
+      "address": "0xc0cc376c9b7faec3",
+      "key": {
+        "type": "hex",
+        "index": 0,
+        "signatureAlgorithm": "ECDSA_P256",
+        "hashAlgorithm": "SHA3_256",
+        "privateKey": "dff3b985a958c2bb2e99d2c170c52cff7c0ba99210f28bcde0d24ee2eba001b3"
+      }
+    }
+  },
+
+  "deployments": {
+    "testnet": {
+      "testnet-account": ["Worlds2022"]
+    }
+  },
+
+  "contracts": {
+    "Worlds2022": "./flow/cadence/contracts/Worlds2022.cdc"
+  }
+}
