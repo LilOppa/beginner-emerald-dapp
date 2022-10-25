@@ -148,7 +148,7 @@ export default function Home() {
           </a>
         </h1>
         <p>
-          This is a DApp created by Jacob Tucker (<i>tsnakejake#8364</i>).
+          This is a DApp created by Ilfat (<i>Ilfat#4484</i>).
         </p>
       </div>
 
